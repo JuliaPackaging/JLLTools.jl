@@ -1,0 +1,18 @@
+name = "JLLTools"
+uuid = "747adb2a-3e53-4aa9-acbb-b9a98b36579a"
+authors = ["Elliot Saba <staticfloat@gmail.com>", "Mosè Giordano <mose@gnu.org>"]
+version = "0.1.0"
+
+[deps]
+BinaryBuilderBase = "7f725544-6523-48cd-82d1-3fa08ff4056e"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PkgLicenses = "fc669557-7ec9-5e45-bca9-462afbc28879"
+RegistryTools = "d1eb7eb1-105f-429d-abf5-b0f65cb9e2c4"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
